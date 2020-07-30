@@ -1,0 +1,27 @@
+{
+    "name": "htech/mock-entry",
+    "description": "Mock entries for easy management. Create database entries that will not show in production",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "htech.web",
+            "email": "dev.web@htechcorp.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Htech\\MockEntry\\MockEntryServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Htech\\MockEntry\\": "src"
+        }
+    },
+    "require": {}
+}
+
